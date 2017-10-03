@@ -1,0 +1,82 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 1180px;
+    height: 795px;
+
+}
+
+.flex-item {
+    width: 1160px;
+    height: 175px;
+    margin: 10px;
+}
+
+.flexItem4 {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+nav ol li {
+	display: inline-block;
+	margin: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+nav ol {
+	text-align: center;
+
+}
+
+h1 {
+	text-align: center;
+		color: white;
+}
+
+main {
+	display: flex;
+		color: white;
+}
+
+#ad {
+	height:246px ;
+	width:324px ;
+	justify-content: right;
+}
+
+#dlc {
+	width: 312px;
+	height: 175px;
+	float: left;
+	padding-right: 10px;
+}
+
+#dlc1 {
+	width: 624px;
+	height: 350px;
+}
+
+.subtitles {
+	margin-top: 0px;
+	color: white;
+}
+
+.homepage {
+
+}
+
+body {
+background-color: black
+}
+
+#hobby {
+	width: 624px;
+	height: 350px;
+}
