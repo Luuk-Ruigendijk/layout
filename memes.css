@@ -51,7 +51,7 @@ main {
 	justify-content: right;
 }
 
-#dlc {
+.dlc {
 	width: 312px;
 	height: 175px;
 	float: left;
