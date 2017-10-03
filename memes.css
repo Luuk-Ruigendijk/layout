@@ -3,15 +3,14 @@
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
-    width: 1180px;
-    height: 795px;
+    flex:7;
 
 }
 
 .flex-item {
-    width: 1160px;
-    height: 175px;
+	min-width: 841px;
     margin: 10px;
+ 
 }
 
 .flexItem4 {
@@ -42,6 +41,7 @@ h1 {
 
 main {
 	display: flex;
+	flex-wrap: wrap;
 		color: white;
 }
 
@@ -79,4 +79,17 @@ background-color: black
 #hobby {
 	width: 624px;
 	height: 350px;
+}
+
+aside {
+	flex: 1;
+}
+
+@media screen and (max-width: 1218px) {
+	.flex-container {
+		order: 2;
+	}
+	aside {
+		order: 1;
+	}
 }
